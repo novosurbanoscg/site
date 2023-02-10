@@ -1,0 +1,9 @@
+{
+  "name": "Coletivo Novos Urbanos",
+  "short_name": "Novos Urbanos",
+  "theme_color": "#f7f49d",
+  "background_color": "#3646b1",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
