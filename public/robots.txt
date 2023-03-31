@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novosurbanoscg.github.io/site/sitemap-index.xml

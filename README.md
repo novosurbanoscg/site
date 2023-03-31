@@ -20,10 +20,14 @@ Esse site foi construído usando Astro Framework.
 │   ├── components/
 │   ├── content/
 │   ├── layouts/
-│   └── pages/
+│   ├── pages/
+│   ├── styles/
+│   ├── config.ts
+│   └── env.d.ts
 ├── astro.config.mjs
 ├── README.md
 ├── package.json
+├── tailwind.config.cjs
 └── tsconfig.json
 ```
 
