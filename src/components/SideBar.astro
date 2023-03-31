@@ -21,6 +21,7 @@
     <ul class="grow shrink">
       <!-- Sidebar content here -->
       <li><a id="home" href="/site">Início</a></li>
+      <li><a id="home" href="/site/manifesto">Manifesto</a></li>
       <!-- <li><a id="projects" href="/projects">Projects</a></li> -->
       <!-- <li><a id="services" href="/services">Services</a></li> -->
       <!-- <li><a id="store" href="/store">Store</a></li> -->
@@ -55,10 +56,11 @@
 </div>
 <script>
   const homeLink = document.getElementById("home");
+  const manifestoLink = document.getElementById("manifesto");
   const doeLink = document.getElementById("doe");
 
   const url = window.location.href;
-  const pages = [homeLink, doeLink];
+  const pages = [homeLink, manifestoLink, doeLink];
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
   pages.forEach((elem) => {
